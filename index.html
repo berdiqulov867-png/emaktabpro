@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width,
+          initial-scale=1.0,
+          maximum-scale=1.0,
+          user-scalable=no">
+
+    <title>Neyronrobot</title>
+
+    <!-- Telegram Mini App -->
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Logo -->
+    <div class="logo">🤖</div>
+
+    <!-- Sarlavha -->
+    <h1>Neyronrobot</h1>
+
+    <p class="subtitle">
+        📚 Tarix va Geografiya ta'lim platformasi
+    </p>
+
+
+    <!-- Xush kelibsiz -->
+    <div class="card">
+        <h2>👋 Xush kelibsiz!</h2>
+
+        <p>
+            Neyronrobot Mini App orqali
+            Tarix va Geografiyani o‘rganing.
+        </p>
+    </div>
+
+
+    <!-- Fanlar -->
+    <div class="card">
+        <h2>📚 Fanlar</h2>
+
+        <button class="blue" onclick="openHistory()">
+            📜 Tarix
+        </button>
+
+        <button class="green" onclick="openGeography()">
+            🌍 Geografiya
+        </button>
+    </div>
+
+
+    <!-- Natijalar -->
+    <div class="card">
+        <h2>📊 Natijalar</h2>
+
+        <button class="orange" onclick="openResults()">
+            🏆 Mening natijalarim
+        </button>
+    </div>
+
+
+    <!-- Profil -->
+    <div class="card">
+        <h2>👤 Profil</h2>
+
+        <p id="userName">
+            Foydalanuvchi
+        </p>
+
+        <button class="blue" onclick="showProfile()">
+            👤 Profilim
+        </button>
+    </div>
+
+</div>
+
+
+<!-- JavaScript -->
+<script src="app.js"></script>
+
+</body>
+</html>
